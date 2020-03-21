@@ -19,11 +19,11 @@ if($numrows ==1) {
         //Redirect Browser
         $_SESSION['user']=$user;
         $_SESSION['name']=$name;
-        header('Location:http://localhost/classes/pfmyprofile.php');
+        header('Location:pfmyprofile.php');
     }
 }
 else {
     $_SESSION['msg']=$msg;
-    header('Location:http://localhost/classes/Login/professorlogin.php');
+    header('Location:Login/professorlogin.php');
 }
 ?>
