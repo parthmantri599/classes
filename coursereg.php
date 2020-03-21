@@ -14,9 +14,9 @@ $sql = "INSERT INTO course(name,gender,birthdate,email,contact,education,subject
 		if(!mysqli_query($conn, $sql)){
 			die(mysqli_error($conn));
 		} else {
-			header("Location: http://localhost/classes/regform/index.php?success=Details%20Added");
+			header("Location: regform/index.php?success=Details%20Added");
 		}
 
-		header("Location: http://localhost/classes/home1.php");
+		header("Location: home1.php");
 //$query=mysqli_query($conn,$sql);
 ?>
