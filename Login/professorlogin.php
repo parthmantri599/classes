@@ -33,7 +33,7 @@ session_start();
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form" method="post" action="http://localhost/classes/pflogin.php">
+				<form class="login100-form validate-form" method="post" action="classes/pflogin.php">
 					<span class="login100-form-title">
 						professor Login
 					</span>
@@ -72,10 +72,10 @@ session_start();
 						<span class="txt1">
 							Forgot Username / Password?
 						</span>
-						<a class="txt2" href="http://localhost/classes/Rform/signupform.html">
+						<a class="txt2" href="classes/Rform/signupform.html">
 							Create Account
 						</a><br><br>
-                        <a href="http://localhost/classes/home.html">Back to Home</a>
+                        <a href="classes/home.html">Back to Home</a>
                         
 					</div>
 
