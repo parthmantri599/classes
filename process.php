@@ -13,8 +13,8 @@ $sql = "INSERT INTO signup(name,email,password,type) VALUES('$name','$email','$p
 		if(!mysqli_query($conn, $sql)){
 			die(mysqli_error($conn));
 		} else {
-			header("Location: http://localhost/classes/Rform/signupform.html?success=Details%20Added");
+			header("Location: Rform/signupform.html?success=Details%20Added");
 		}
-		header("Location: http://localhost/classes/home.html");
+		header("Location: home.html");
 //$query=mysqli_query($conn,$sql);
 ?>
