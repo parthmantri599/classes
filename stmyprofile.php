@@ -2,7 +2,7 @@
 session_start();
 if (!(isset($_SESSION['user']) ))
 {
-  header('location: http://localhost/classes/Login/studentlogin.php');
+  header('location: Login/studentlogin.php');
 
 }
 ?>
@@ -164,7 +164,7 @@ text-align: center
 								<li class="btn-cta"><a><span>Hello,<?php
              echo $_SESSION['name'];
              ?></span></a></li>
-								<li class="btn-cta"><a href="http://localhost/classes/logout.php"><span>logout  </span></a></li>
+								<li class="btn-cta"><a href="logout.php"><span>logout  </span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -296,7 +296,7 @@ $result = mysqli_query($conn, $sql);
 							<li>B-29, KP Education HUB, Jasmine Street, <br> Fort, Mumbai IND 400016</li>
 							<li><a href="tel://9898989856"><i class="icon-phone"></i>+91 9898 989 856</a></li>
 							<li><a href="mailto:info@KPEducation.com"><i class="icon-envelope"></i> info@KPEducation.com</a></li>
-							<li><a href="http://localhost/classes/home.html"><i class="icon-location4"></i> KPEducation.com</a></li>
+							<li><a href="home.html"><i class="icon-location4"></i> KPEducation.com</a></li>
 						</ul>
 					</div>
 				</div>
