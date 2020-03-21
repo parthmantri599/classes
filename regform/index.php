@@ -2,7 +2,7 @@
 session_start();
 if (!(isset($_SESSION['user']) ))
 {
-  header('location: http://localhost/classes/home.html');
+  header('location: classes/home.html');
 
 }
 ?>
