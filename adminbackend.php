@@ -21,12 +21,12 @@ $query = mysqli_query($conn, "SELECT * FROM signup WHERE name='".$user."' AND pa
  //Redirect Browser
  $_SESSION['user']=$user;
  
- header('Location:http://localhost/classes/admin2.php');
+ header('Location:admin2.php');
  }
  }
  else
  {
      $_SESSION['error']=$error;
- 	header('Location:http://localhost/classes/admin_login.php');
+ 	header('Location:admin_login.php');
 }
 ?>
