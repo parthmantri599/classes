@@ -2,7 +2,7 @@
 session_start();
 if (!(isset($_SESSION['user']) ))
 {
-  header('location: http://localhost/classes/admin_login.php');
+  header('location: admin_login.php');
 
 }
 ?>
@@ -101,7 +101,7 @@ if (!(isset($_SESSION['user']) ))
 								<li class="btn-cta"><a ><span>Hello, <?php
              echo $_SESSION['user'];
              ?></span></a></li>
-								<li class="btn-cta"><a href="http://localhost/classes/logout2.php"><span>logout  </span></a></li>
+								<li class="btn-cta"><a href="logout2.php"><span>logout  </span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -110,7 +110,7 @@ if (!(isset($_SESSION['user']) ))
         
 		</nav>
         <div>
-			<form align="center" action="http://localhost/classes/admintb/hello.php" method="post" >
+			<form align="center" action="admintb/hello.php" method="post" >
                 
 				<b>Total Students Enrolled</b>&nbsp;<input type="submit" id="b1" value="go"> <br><br>
 				<b>Total professsor Enrolled</b>&nbsp;<input type="submit" id="b2" value="go"> <br><br>
