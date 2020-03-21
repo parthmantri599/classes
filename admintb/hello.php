@@ -2,7 +2,7 @@
 session_start();
 if (!(isset($_SESSION['user']) ))
 {
-  header('location: http://localhost/classes/admin_login.html');
+  header('location: classes/admin_login.html');
 
 }
 ?>
