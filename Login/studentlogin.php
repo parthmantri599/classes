@@ -33,7 +33,7 @@ session_start();
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form" action="classes/stlogin.php" method="post">
+				<form class="login100-form validate-form" action="../stlogin.php" method="post">
 					<span class="login100-form-title">
 						student Login
 					</span>
@@ -72,7 +72,7 @@ session_start();
 						<span class="txt1">
 							Forgot Username / Password?
 						</span>
-						<a class="txt2" href="Rform/signupform.html">
+						<a class="txt2" href="../Rform/signupform.html">
 							Create your Account
 						</a><br><br>
                         <a href="../home.html">Back to Home</a>
