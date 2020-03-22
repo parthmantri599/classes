@@ -2,7 +2,7 @@
 session_start();
 if (!(isset($_SESSION['user']) ))
 {
-  header('location: classes/home.html');
+  header('location: ../home.html');
 
 }
 ?>
@@ -40,7 +40,7 @@ if (!(isset($_SESSION['user']) ))
             <div class="card card-4">
                 <div class="card-body">
                     <h2 class="title">Enrollment Form</h2>
-                    <form method="POST" action="http://localhost/classes/coursereg.php">
+                    <form method="POST" action="../coursereg.php">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
