@@ -75,7 +75,7 @@ session_start();
 						<a class="txt2" href="Rform/signupform.html">
 							Create your Account
 						</a><br><br>
-                        <a href="classes/home.html">Back to Home</a>
+                        <a href="home.html">Back to Home</a>
 					</div>
 
 					
