@@ -72,7 +72,7 @@ session_start();
 						<span class="txt1">
 							Forgot Username / Password?
 						</span>
-						<a class="txt2" href="classes/Rform/signupform.html">
+						<a class="txt2" href="Rform/signupform.html">
 							Create your Account
 						</a><br><br>
                         <a href="classes/home.html">Back to Home</a>
